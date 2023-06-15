@@ -2,11 +2,11 @@
 public class EjercicioFactorial {
 	public static void main(String[] args) {
 		System.out.println("Ejemplo Factorial");
-		int factorial =1 ;
-		
+		int factorial = 1;
+
 		for (int i = 1; i < 11; i++) {
-            factorial *= i;
-            System.out.println("Factorial de " + i + " = " + factorial);
+			factorial *= i;
+			System.out.println("Factorial de " + i + " = " + factorial);
 		}
 
 	}
